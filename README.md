@@ -53,6 +53,6 @@ Once in production, I executed another series of "smoke tests" to ensure that th
 | PATCH  | `/players/:id`         | `players#update`  |
 | DELETE | `/players/:id`         | `players#destroy` |
 
-## Dependecies
+## Dependencies
 
 Dependencies can be installed by running "bundle install" in your repo. No additional dependencies (beyond those included with the GA template) were added.
