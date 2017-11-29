@@ -1,5 +1,5 @@
 class PlayersController < OpenReadController
-  before_action :set_player, only: [:update, :destroy]
+  before_action :set_player, only: [:update, :destroy, :show]
 
   # GET /players
   def index
@@ -11,7 +11,8 @@ class PlayersController < OpenReadController
 
   # GET /players/1
   def show
-    render json: Player.find(params[:id])
+    # render json: Player.find(params[:id])
+    render json: @player
   end
 
   # POST /players
